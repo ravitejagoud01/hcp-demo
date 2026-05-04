@@ -14,6 +14,7 @@ resource "aws_subnet" "public" {
   cidr_block = var.subnet_public_cidr
   tags = {
     Name = "public-subnet"
+    Environment = "dev"
   }
 }
 
@@ -22,5 +23,6 @@ resource "aws_subnet" "private" {
   cidr_block = var.subnet_private_cidr
   tags = {
     Name = "main-subnet"
+    Environment = "dev"
   }
 }
