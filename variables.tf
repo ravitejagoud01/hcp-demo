@@ -1,5 +1,5 @@
 variable "vpc_cidr" {
-  description = "This cidr is for main vpc"
+  description = "This cidr block is for main vpc"
   type        = string
   default     = "10.0.0.0/16"
 }
