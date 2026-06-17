@@ -26,3 +26,7 @@ resource "aws_subnet" "private" {
     Environment = "dev"
   }
 }
+
+resource "aws_s3_bucket" "demo-bucket" {
+  bucket = "demobucket"
+}
