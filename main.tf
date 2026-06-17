@@ -29,4 +29,8 @@ resource "aws_subnet" "private" {
 
 resource "aws_s3_bucket" "demo-bucket" {
   bucket = "demobucket"
+
+  tags = {
+    name = "demo-bucket"
+  }
 }
