@@ -27,10 +27,10 @@ resource "aws_subnet" "private" {
   }
 }
 
-resource "aws_s3_bucket" "demo-bucket" {
-  bucket = "demobucketravi0305"
+# resource "aws_s3_bucket" "demo-bucket" {
+#   bucket = "demobucketravi0305"
 
-  tags = {
-    name = "demo-bucket"
-  }
-}
+#   tags = {
+#     name = "demo-bucket"
+#   }
+# }
